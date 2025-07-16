@@ -154,7 +154,7 @@ export default function Home() {
   </div>
 
   {/* Popular Genres Section */}
-  <h1 className="text-center text-3xl font-bold text-[#3F3A38]">Popular Genres</h1>
+  <h1 className="text-center text-3xl font-bold text-[#3F3A38]">Popular Genres For you</h1>
   {categories.map((category, index) => (
     <div key={index}>
       <h2 className="text-2xl font-semibold text-[#3F3A38] mb-4">{category.name}</h2>
